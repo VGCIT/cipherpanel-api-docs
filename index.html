@@ -8,10 +8,15 @@
     <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
   </head>
   <body>
-    <!-- Redoc will render your YAML here -->
-    <redoc spec-url="api-cp-v1.yaml"></redoc>
-  </body>
+  <div id="redoc-container"></div>
+
+  <script>
+    Redoc.init('api-cp-v1.yaml', {}, document.getElementById('redoc-container'));
+  </script>
+</body>
+
 </html>
+
 
 
 
