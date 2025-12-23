@@ -8235,7 +8235,7 @@ paths:
       parameters:
         - name: id
           in: query
-          description: ''
+          description: This is X509 address ID.
           schema:
             type: string
             format: uuid
